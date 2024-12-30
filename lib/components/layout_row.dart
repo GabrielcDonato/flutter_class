@@ -6,6 +6,7 @@ class LayoutRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor: Colors.amber,
       body: SizedBox(
         height: double.infinity,
         child: Row(
